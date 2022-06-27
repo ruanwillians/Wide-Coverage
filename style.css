@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin-top: 20px;
+}
+
+header a {
+    margin-right: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+}
+
+header a:first-child{
+    margin-left: 42px;
+}
+
+header a:last-child{
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    color: #FFFF;
+    font-size: 16px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 121px;
+}
+.text{
+    margin-left: 84px;
+}
+
+div h1{
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+}
+
+div p{
+    margin-top: 47px;
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+div a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+}
+
+@media (max-width: 1200px){
+
+    *{  margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+    header a{
+        display: none;
+        width: 91px;
+        height: 31px;
+    }
+
+    header a:last-child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .text{
+        margin: 0;
+        width: 304px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    div h1{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 1px;
+        width: 278px;
+        height: 60px;
+        line-height: 50px;
+    }
+
+    div p{
+        width: 375px;
+        height: 165px;
+        text-align: center;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    img{
+        margin-top: 50px;
+        width: 312px;
+        height: 288px;
+    }
+
+    section{
+        margin: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
